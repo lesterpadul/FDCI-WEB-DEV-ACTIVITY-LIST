@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Activities</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+	<div id="accordion">
+    <!-- 1st activity -->
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        Activity #1
+        </button>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          1. create an array of image urls in javascript <br>
+          2. create a function that will transition the images <br>
+          3. add two buttons, previous button and next button <br>
+          4. when previous button clicked, it will transition to previous image <br>
+          5. when next button clicked, it will transition to next image <br><br>
+
+          Use jQuery.animate() function for making the transitions to work. see example transition below <br><br>
+          https://gyazo.com/fb89dab519b2adb974f3a0ddeca0deba
+        </div>
+      </div>
+    </div>
+
+    <!-- 2nd activity -->
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Activity #2
+        </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          1. create an array of image urls in javascript <br>
+          2. create a function that will transition the images <br>
+          
+          Use jQuery.animate() function for making the transitions to work. see example transition below <br><br>
+          https://gyazo.com/4931a67dfd327f0be26076a1f3623a63
+        </div>
+      </div>
+    </div>
+
+    <!-- 3rd activity -->
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Activity #3
+        </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          1. create a container div with a height and width of 500px <br>
+          2. inside the container div, create a div with these properties width: 50px; height: 50px; position: fixed; background: {your preference} <br>
+          
+          Use jQuery.animate() function for making the transitions to work. see example transition below <br><br>
+          https://gyazo.com/55a7e4414d1bd43b9da909e5224cb975 <br><br>
+
+          HINT: to make the animation, experiment with the "margin"
+        </div>
+      </div>
+    </div>
+	</div>
+</body>
+</html>
